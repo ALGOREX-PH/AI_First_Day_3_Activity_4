@@ -58,6 +58,28 @@ if 'chat_session' not in st.session_state:
 if options == "Home" :
 
    st.title('News Summarizer Tool')
+   st.write("Welcome to the News Article Summarizer Tool, designed to provide you with clear, concise, and well-structured summaries of news articles. This tool is ideal for readers who want to quickly grasp the essential points of any news story without wading through lengthy articles. Whether you’re catching up on global events, diving into business updates, or following the latest political developments, this summarizer delivers all the important details in a brief, easily digestible format.")
+   st.write("## What the Tool Does")
+   st.write("The News Article Summarizer Tool reads and analyzes full-length news articles, extracting the most critical information and presenting it in a structured manner. It condenses lengthy pieces into concise summaries while maintaining the integrity of the original content. This enables users to quickly understand the essence of any news story.")
+   st.write("## How It Works")
+   st.write("The tool follows a comprehensive step-by-step process to create accurate and objective summaries:")
+   st.write("*Analyze and Extract Information:* The tool carefully scans the article, identifying key elements such as the main event or issue, people involved, dates, locations, and any supporting evidence like quotes or statistics.")
+   st.write("*Structure the Summary:* It organizes the extracted information into a clear, consistent format. This includes:")
+   st.write("- *Headline:* A brief, engaging headline that captures the essence of the story.")
+   st.write("- *Lead:* A short introduction summarizing the main event.")
+   st.write("- *Significance:* An explanation of why the news matters.")
+   st.write("- *Details:* A concise breakdown of the key points.")
+   st.write("- *Conclusion:* A wrap-up sentence outlining future implications or developments.")
+   st.write("# Why Use This Tool?")
+   st.write("- *Time-Saving:* Quickly grasp the key points of any article without having to read through long pieces.")
+   st.write("- *Objective and Neutral:* The tool maintains an unbiased perspective, presenting only factual information.")
+   st.write("- *Structured and Consistent:* With its organized format, users can easily find the most relevant information, ensuring a comprehensive understanding of the topic at hand.")
+   st.write("# Ideal Users")
+   st.write("This tool is perfect for:")
+   st.write("- Busy professionals who need to stay informed but have limited time.")
+   st.write("- Students and researchers looking for quick, accurate summaries of current events.")
+   st.write("- Media outlets that want to provide readers with quick takes on trending news.")
+   st.write("Start using the News Article Summarizer Tool today to get concise and accurate insights into the news that matters most!")
    
 elif options == "About Us" :
      st.title('News Summarizer Tool')
